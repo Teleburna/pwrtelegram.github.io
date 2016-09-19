@@ -4,7 +4,7 @@ Licensed under AGPLv3.
 
 This website contains the documentation for the pwrtelegram API, a boosted version of the official telegram bot API.
 
-Also check out the [PWRTelegram app](https://pwrtelegram.xyz/pwrtelegram-app)!.
+Also check out the [PWRTelegram app](https://pwrtelegram.xyz/pwrtelegram-app)!
 
 The PWRTelegram API makes use of:  
 
