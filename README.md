@@ -188,7 +188,7 @@ On success, they will return a json array containing the following elements:
 
  * file_size => Uploaded file size
 
- * file_id => Optional caption of uploaded file id (to send when calling a send method).
+ * caption => Optional caption of uploaded file id (to send when calling a send method).
 
 Otherwise the error is returned.
 
