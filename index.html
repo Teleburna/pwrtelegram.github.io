@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Pwrtelegram.GitHub.io by pwrtelegram</title>
+    <title>PWRTelegram by pwrtelegram</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -11,20 +11,20 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Pwrtelegram.GitHub.io</h1>
-      <h2 class="project-tagline">Repository for the pwrtelegram website</h2>
+      <h1 class="project-name">PWRTelegram</h1>
+      <h2 class="project-tagline">Documentation for pwrtelegrm</h2>
     </section>
 
     <section class="main-content">
       <h1>
-<a id="pwrtelegram-api" class="anchor" href="#pwrtelegram-api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PWRTelegram API</h1>
+<a id="pwrtelegram-api" class="anchor" href="#pwrtelegram-api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pwrtelegram API</h1>
 
-<p>Version 1.1 beta 1.<br>
+<p>Version 1.1 beta 3.<br>
 Licensed under AGPLv3.  </p>
 
-<p>This repository contains the source code for the pwrtelegram API, a boosted version of the official telegram bot API.</p>
+<p><a href="https://pwr-status.herokuapp.com"><img src="https://pwr-status.herokuapp.com" alt="API status"></a></p>
 
-<p><a href="https://pwrtelegram.xyz/pwrtelegram-app">Also check out the pwrtelegram app</a>!</p>
+<p>This repository contains the source code for the pwrtelegram API, a boosted version of the official telegram bot API.</p>
 
 <p>The PWRTelegram API makes use of:  </p>
 
@@ -44,7 +44,7 @@ Licensed under AGPLv3.  </p>
 
 <p>This API is written and maintained by <a href="https://github.com/danog">danog</a> (<a href="https://telegram.me/danogentili">@danogentili on telegram</a>) with the help of the folks over <a href="https://telegram.me/BotDevelopment">@BotDevelopment</a>, especially <a href="https://github.com/itskenny0">itskenny0</a> (<a href="https://telegram.me/shitposting">@shitposting on telegram</a>) and <a href="https://github.com/Rondoozle">Rondoozle</a> (<a href="https://telegram.me/POTUS">@POTUS on Telegram</a>).  </p>
 
-<p>It is hosted on OVH.</p>
+<p>It is hosted on Scaleway.</p>
 
 <p>The new PWRTelegram logo was created by <a href="https://telegram.me/BayernPars">@BayernPars</a>.</p>
 
@@ -169,9 +169,7 @@ https://deepstorage.pwrtelegram.xyz/botusername/filename.ext
 <p>This is the metadata that will be obtained and sent: </p>
 
 <ul>
-<li><p>Documents: file name as caption</p></li>
-<li><p>Photos: file name as caption</p></li>
-<li><p>Video: file name, width, height and duration as caption, width, height and duration</p></li>
+<li><p>Video: width, height and duration as width, height and duration</p></li>
 <li><p>Audio: track name, author, duration as title, author, duration</p></li>
 <li><p>Voice: duration as duration  </p></li>
 </ul>
@@ -187,9 +185,7 @@ https://deepstorage.pwrtelegram.xyz/botusername/filename.ext
 <p>This is the metadata that will be obtained and sent (only if not present in the request) along with the file:</p>
 
 <ul>
-<li><p>Documents: file name as caption</p></li>
-<li><p>Photos: file name as caption</p></li>
-<li><p>Video: file name, width, height and duration as caption, width, height and duration</p></li>
+<li><p>Video: width, height and duration as width, height and duration</p></li>
 <li><p>Audio: track name, author, duration as title, author, duration</p></li>
 <li><p>Voice: duration as duration</p></li>
 </ul>
@@ -302,7 +298,6 @@ https://deepstorage.pwrtelegram.xyz/botusername/filename.ext
 <li><p>file_id =&gt; Uploaded file id</p></li>
 <li><p>file_type =&gt; Uploaded file type</p></li>
 <li><p>file_size =&gt; Uploaded file size</p></li>
-<li><p>caption =&gt; Optional caption of uploaded file id (to send when calling a send method).</p></li>
 </ul>
 </li>
 </ul>
