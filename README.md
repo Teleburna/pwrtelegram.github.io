@@ -1,10 +1,10 @@
-# PWRTelegram API
-Version 1.1 beta 1.  
+# Pwrtelegram API
+Version 1.1 beta 3.   
 Licensed under AGPLv3.  
 
-This repository contains the source code for the pwrtelegram API, a boosted version of the official telegram bot API.
+[![API status](https://pwr-status.herokuapp.com)](https://pwr-status.herokuapp.com)
 
-[Also check out the pwrtelegram app](https://pwrtelegram.xyz/pwrtelegram-app)!
+This repository contains the source code for the pwrtelegram API, a boosted version of the official telegram bot API.
 
 The PWRTelegram API makes use of:  
 
@@ -18,7 +18,7 @@ The PWRTelegram API makes use of:
 
 This API is written and maintained by [danog](https://github.com/danog) ([@danogentili on telegram](https://telegram.me/danogentili)) with the help of the folks over [@BotDevelopment](https://telegram.me/BotDevelopment), especially [itskenny0](https://github.com/itskenny0) ([@shitposting on telegram](https://telegram.me/shitposting)) and [Rondoozle](https://github.com/Rondoozle) ([@POTUS on Telegram](https://telegram.me/POTUS)).  
 
-It is hosted on OVH.
+It is hosted on Scaleway.
 
 The new PWRTelegram logo was created by [@BayernPars](https://telegram.me/BayernPars).
 
@@ -124,11 +124,7 @@ The PWRTelegram API will automagically obtain the metadata of the provided file/
 
 This is the metadata that will be obtained and sent: 
 
-* Documents: file name as caption
-
-* Photos: file name as caption
-
-* Video: file name, width, height and duration as caption, width, height and duration
+* Video: width, height and duration as width, height and duration
 
 * Audio: track name, author, duration as title, author, duration
 
@@ -145,11 +141,7 @@ Use this method to send any file/URL/file ID. This method will automagically rec
 
 This is the metadata that will be obtained and sent (only if not present in the request) along with the file:
 
-* Documents: file name as caption
-
-* Photos: file name as caption
-
-* Video: file name, width, height and duration as caption, width, height and duration
+* Video: width, height and duration as width, height and duration
 
 * Audio: track name, author, duration as title, author, duration
 
@@ -187,8 +179,6 @@ On success, they will return a json array containing the following elements:
  * file_type => Uploaded file type
 
  * file_size => Uploaded file size
-
- * caption => Optional caption of uploaded file id (to send when calling a send method).
 
 Otherwise the error is returned.
 
